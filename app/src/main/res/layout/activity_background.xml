@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="200dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:textSize="13sp"
+        android:layout_gravity="bottom"
+        android:text="Fullname     :\n\n 2003-2009 :\n\n 2009-2012 :\n\n 2012-2015 :\n\n 2015-2018  :"
+        android:id="@+id/textView3" />
+
+        <TextView
+            android:layout_width="285dp"
+            android:layout_height="200dp"
+            android:textAlignment="viewStart"
+            android:layout_gravity="end"
+            android:text="Yuli Hardianti\n\n
+First elementary school of Bogor Jawa Barat\n
+Junior high school of Bogor Jawa Barat\n
+Senior high school of Bogor Jawa Barat\n
+University STT Terpadu NF of Depok Jawa Barat "
+            android:textSize="13sp"
+            android:id="@+id/textView2"
+            android:layout_alignParentTop="true"
+            android:layout_toEndOf="@+id/textView3"
+            android:layout_marginStart="44dp" />
+        android:layout_toEndOf="@+id/textView3" />
+
+
+    </RelativeLayout>
+
+    <Button
+        android:text="INFORMASI"
+        android:textSize="12sp"
+        android:textAlignment="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+         android:padding="10dp"
+        android:id="@+id/btn_info" />
+</LinearLayout>
